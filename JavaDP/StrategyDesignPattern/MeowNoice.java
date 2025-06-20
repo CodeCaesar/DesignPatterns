@@ -4,6 +4,6 @@ public class MeowNoice implements NoiceBehaviour {
     
     @Override
     public void noice(String name) {
-        System.out.println("*MEOW*");
+        System.out.println("name: *MEOW*");
     }
 }

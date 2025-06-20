@@ -4,6 +4,6 @@ public class RoarNoice implements NoiceBehaviour {
     
     @Override
     public void noice(String name) {
-        System.out.println("*ROAR*");
+        System.out.println("name: *ROAR*");
     }
 }
