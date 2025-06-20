@@ -8,4 +8,12 @@ public abstract class Felidae {
 
     public Felidae() {
     }
+
+    public void noice() {
+        noiceBehaviour.noice(name);
+    }
+
+    public void swim() {
+        swimBehaviour.swim(name);
+    }
 }
