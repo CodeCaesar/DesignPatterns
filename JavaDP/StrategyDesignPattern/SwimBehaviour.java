@@ -2,5 +2,5 @@ package JavaDP.StrategyDesignPattern;
 
 public interface SwimBehaviour {
     
-    public void swim();
+    public void swim(String name);
 }

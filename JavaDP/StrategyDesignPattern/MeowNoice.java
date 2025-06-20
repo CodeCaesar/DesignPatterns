@@ -3,7 +3,7 @@ package JavaDP.StrategyDesignPattern;
 public class MeowNoice implements NoiceBehaviour {
     
     @Override
-    public void noice() {
+    public void noice(String name) {
         System.out.println("*MEOW*");
     }
 }
