@@ -3,7 +3,7 @@ package JavaDP.DecoratorDesignPattern;
 public class IceCreamCone extends IceCream {
     
     public IceCreamCone() {
-        this.description = "ice-cream cone";
+        this.description = "Ice-cream cone";
     }
 
     public double cost() {
