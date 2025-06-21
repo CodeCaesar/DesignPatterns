@@ -8,5 +8,7 @@ public class DecoratorMain {
         VanillaIceCream vanilla = new VanillaIceCream(cone);
         StrawberryIceCream strawberry = new StrawberryIceCream(vanilla);
         ChocolateIceCream chocolate = new ChocolateIceCream(strawberry);
+
+        System.out.println(chocolate.getDescription() + "\n" + chocolate.cost());
     }
 }
