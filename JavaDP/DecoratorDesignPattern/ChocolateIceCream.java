@@ -1,6 +1,6 @@
 package JavaDP.DecoratorDesignPattern;
 
-public class ChocolateIceCream {
+public class ChocolateIceCream extends IceCreamDecorator {
     
     private IceCream iceCream;
 
