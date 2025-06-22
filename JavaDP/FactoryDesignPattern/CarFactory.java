@@ -15,6 +15,10 @@ public class CarFactory {
             car = new FerrariCar();
         } else if(type.equals("Lamborghini") || type.equals("Lambo")) {
             car = new LamborghiniCar();
+        } else if(type.equals("Audi")) {
+            car = new AudiCar();
+        } else if(type.equals("Toyota")) {
+            car = new ToyotaCar();
         }
 
         return car;
