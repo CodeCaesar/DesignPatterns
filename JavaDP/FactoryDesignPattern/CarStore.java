@@ -13,6 +13,10 @@ public class CarStore {
 
         car = carFactory.createCar(type);
 
+        car.build();
+        car.ship();
+        car.info();
+
         return car;
     }
 }
