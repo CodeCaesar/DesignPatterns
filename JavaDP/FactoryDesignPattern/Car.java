@@ -2,7 +2,8 @@ package JavaDP.FactoryDesignPattern;
 
 public abstract class Car {
     
-    private String name;
+    protected String name;
+    protected int[] priceRange = new int[2];
 
     public Car() {}
 }
