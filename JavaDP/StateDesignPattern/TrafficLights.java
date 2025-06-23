@@ -4,7 +4,13 @@ public class TrafficLights {
     
     private TrafficLightState state;
 
-    public TrafficLights() {}
+    public TrafficLights() {
+        this.state = new RedLight();
+    }
 
-    public void doRounds(int rounds) {}
+    public void doRounds(int rounds) {
+        for(int round = 0; round < rounds; round++) {
+            state = state.nextState();
+        }
+    }
 }

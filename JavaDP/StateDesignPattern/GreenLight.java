@@ -1,14 +1,11 @@
 package JavaDP.StateDesignPattern;
 
 public class GreenLight implements TrafficLightState {
-    
-    private Colours colour;
 
-    public GreenLight() {
-        this.colour = Colours.GREEN;
-    }
+    public GreenLight() {}
     
     public TrafficLightState nextState() {
+        System.out.println("The light is GREEN");
         return new AmberLight();
     }
 }
