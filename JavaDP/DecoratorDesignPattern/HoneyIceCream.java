@@ -1,8 +1,6 @@
 package JavaDP.DecoratorDesignPattern;
 
 public class HoneyIceCream extends IceCreamDecorator {
-    
-    private IceCream iceCream;
 
     public HoneyIceCream(IceCream iceCream) {
         this.iceCream = iceCream;
