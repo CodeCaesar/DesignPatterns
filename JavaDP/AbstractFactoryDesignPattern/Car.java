@@ -1,11 +1,11 @@
 package JavaDP.AbstractFactoryDesignPattern;
 
-public abstract class CarType {
+public abstract class Car {
     
     protected String name;
     protected int[] priceRange = new int[2];
 
-    public CarType() {}
+    public Car() {}
 
     public void setPriceRange(int[] newPriceRange) {
         this.priceRange = newPriceRange;

@@ -6,8 +6,8 @@ public class BmwFactory extends AbstractCarFactory {
      * Might remove @Override
      */
     @Override
-    public CarType createCar(String type) {
-        CarType car = null;
+    public Car createCar(String type) {
+        Car car = null;
 
         return car;
     }
