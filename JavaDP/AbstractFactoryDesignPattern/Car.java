@@ -21,7 +21,7 @@ public class Car {
     }
 
     public void info() {
-        System.out.println(name + ": " + type.getType() + " has arrived...\n\nInfo:");
-        System.out.println("Name: " + name + "\nPrice Range: from £" + priceRange[0] + " to £" + priceRange[1]);
+        System.out.println(name + " has arrived...\n\nInfo:");
+        System.out.println("Name: " + name + " " + type.getType() + "\nPrice Range: from £" + priceRange[0] + " to £" + priceRange[1]);
     }
 }

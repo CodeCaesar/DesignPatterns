@@ -8,13 +8,13 @@ public class HondaFactory extends AbstractCarFactory {
         String name = "Honda";
 
         if(type.equals("SUV")) {
-            int[] priceRange = {1,6};
+            int[] priceRange = {30_400, 41_825};
             car = new Car(name, new SuvCarType(), priceRange);
         } else if(type.equals("Sedan")) {
-            int[] priceRange = {1,6};
+            int[] priceRange = {15_000, 25_000};
             car = new Car(name, new SedanCarType(), priceRange);
         } else if(type.equals("Electric")) {
-            int[] priceRange = {1,6};
+            int[] priceRange = {37_405, 44_995};
             car = new Car(name, new ElectricCarType(), priceRange);
         }
 

@@ -8,10 +8,10 @@ public class FerrariFactory extends AbstractCarFactory {
         String name = "Ferrari";
 
         if(type.equals("SUV")) {
-            int[] priceRange = {1,6};
+            int[] priceRange = {313_120, 700_000};
             car = new Car(name, new SuvCarType(), priceRange);
         } else if(type.equals("Super")) {
-            int[] priceRange = {1,6};
+            int[] priceRange = {343_000, 3_100_000};
             car = new Car(name, new SuperCarType(), priceRange);
         }
 
