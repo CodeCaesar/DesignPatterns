@@ -1,10 +1,6 @@
 package JavaDP.AbstractFactoryDesignPattern;
 
-public class AbstractCarFactory {
+public abstract class AbstractCarFactory {
 
-    public Car createCar(String type) {
-        Car car = null;
-
-        return car;
-    }
+    public abstract Car createCar(String type);
 }
