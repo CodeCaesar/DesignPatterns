@@ -1,7 +1,7 @@
 package JavaDP.AbstractFactoryDesignPattern;
 
-public class BmwFactory extends AbstractCarFactory {
-
+public class HondaFactory extends AbstractCarFactory {
+    
     @Override
     public Car createCar(String type) {
         Car car = null;
