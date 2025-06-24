@@ -6,7 +6,8 @@ public class Car {
     private int[] priceRange = new int[2];
     private CarType type;
 
-    public Car(CarType type, int[] priceRange) {
+    public Car(String name, CarType type, int[] priceRange) {
+        this.name = name;
         this.type = type;
         this.priceRange = priceRange;
     }
