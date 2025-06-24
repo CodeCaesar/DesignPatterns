@@ -11,7 +11,16 @@ public abstract class Car {
         this.priceRange = priceRange;
     }
 
-    public void setPriceRange(int[] newPriceRange) {
-        this.priceRange = newPriceRange;
+    public void build() {
+        System.out.println(name + " is being build...");
+    }
+
+    public void ship() {
+        System.out.println(name + " is being shipped...");
+    }
+
+    public void info() {
+        System.out.println(name + " has arrived...\n\nInfo:");
+        System.out.println("Name: " + name + "\nPrice Range: from £" + priceRange[0] + " to £" + priceRange[1]);
     }
 }
