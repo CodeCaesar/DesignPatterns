@@ -1,6 +1,6 @@
 package JavaDP.AbstractFactoryDesignPattern;
 
-public abstract class Car {
+public class Car {
     
     private String name;
     private int[] priceRange = new int[2];
