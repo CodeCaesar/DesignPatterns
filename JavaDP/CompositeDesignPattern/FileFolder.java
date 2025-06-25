@@ -14,5 +14,7 @@ public class FileFolder implements FileComponent {
     }
 
     @Override
-    public void setNmae() {}
+    public void setNmae(String name) {
+        this.name = name;
+    }
 }
