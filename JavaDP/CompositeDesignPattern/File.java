@@ -3,11 +3,13 @@ package JavaDP.CompositeDesignPattern;
 public class File implements FileComponent {
     
     private String name;
+    private String type;
     private int size; // in KB, if files exceed 1TB then change variable type to "long"
 
-    public File(String name) {
+    public File(String name, String type) {
         this.name = name;
         this.size = 0;
+        this.type = type;
     }
 
     @Override
