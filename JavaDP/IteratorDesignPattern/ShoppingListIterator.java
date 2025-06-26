@@ -22,6 +22,8 @@ public class ShoppingListIterator implements Iterator {
 
     @Override
     public Object next() {
-        return null;
+        String item = items[position];
+        position = position + 1;
+        return item;
     }
 }
