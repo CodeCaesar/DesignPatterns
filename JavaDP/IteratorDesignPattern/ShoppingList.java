@@ -1,5 +1,7 @@
 package JavaDP.IteratorDesignPattern;
 
+import java.util.Iterator;
+
 public class ShoppingList {
     
     private String[] shoppingList;
@@ -18,6 +20,10 @@ public class ShoppingList {
         }
 
         this.pointer += 1;
+    }
+
+    public Iterator createIterator() {
+        return new ShoppingListIterator(this.shoppingList);
     }
 
     public void temporaryGetShoppingList() {
