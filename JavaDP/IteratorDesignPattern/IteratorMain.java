@@ -12,6 +12,6 @@ public class IteratorMain {
         shoppingList.addItem("Avocados", 3);
         shoppingList.addItem("Bags of Tea", 32);
 
-        shoppingList.temporaryGetShoppingList();
+        shoppingList.iterate();
     }
 }

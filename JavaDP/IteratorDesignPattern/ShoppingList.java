@@ -26,6 +26,14 @@ public class ShoppingList {
         return new ShoppingListIterator(this.shoppingList);
     }
 
+    public void iterate() {
+        Iterator iterator = createIterator();
+
+        while(iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+    }
+
     public void temporaryGetShoppingList() {
         for(String item : shoppingList) {
             System.out.println(item);
