@@ -33,10 +33,4 @@ public class ShoppingList {
             System.out.println(iterator.next());
         }
     }
-
-    public void temporaryGetShoppingList() {
-        for(String item : shoppingList) {
-            System.out.println(item);
-        }
-    }
 }
