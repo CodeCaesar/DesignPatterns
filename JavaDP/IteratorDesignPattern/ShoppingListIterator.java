@@ -13,7 +13,11 @@ public class ShoppingListIterator implements Iterator {
 
     @Override
     public boolean hasNext() {
-        return false;
+        if(this.position >= items.length || items[position] == null) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     @Override
