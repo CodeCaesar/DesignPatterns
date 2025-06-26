@@ -4,11 +4,22 @@ public class File implements FileComponent {
     
     private String name;
     private String type;
-    private int size; // in KB, if files exceed 1TB then change variable type to "long"
+    /**
+     * Units measured in <b>KB</b>
+     * <p>
+     * If files exceed <b>1TB</b> then change variable type to <i>"long"</i>
+     */
+    private int size;
 
     public File(String name, String type) {
         this.name = name;
         this.size = 0;
+        this.type = type;
+    }
+
+    public File(String name, String type, int size) {
+        this.name = name;
+        this.size = size;
         this.type = type;
     }
 
